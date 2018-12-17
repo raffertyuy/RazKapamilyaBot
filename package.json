@@ -1,0 +1,40 @@
+{
+  "name": "razkapamilyabot",
+  "version": "1.0.0",
+  "description": "Raz Kapamilya Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js"
+  },
+  "author": "Rafferty Uy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafferty/RazKapamilyaBot.git"
+  },
+  "dependencies": {
+    "botbuilder": "^3.14.1",
+    "botbuilder-azure": "^3.0.4",
+    "dotenv-extended": "^2.3.0",
+    "html-entities": "^1.2.1",
+    "node-fetch": "^2.2.0",
+    "request": "^2.81.0",
+    "restify": "^5.0.0",
+    "striptags": "^3.1.1"
+  },
+  "devDependencies": {
+    "zip-folder": "^1.0.0"
+  },
+  "keywords": [
+    "Azure",
+    "chat",
+    "bots",
+    "cognitive",
+    "cognitiveservices",
+    "qna",
+    "qnamaker",
+    "luis",
+    "logicapps"
+  ]
+}
