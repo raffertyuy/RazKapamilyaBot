@@ -14,7 +14,7 @@
     "url": "https://github.com/rafferty/RazKapamilyaBot.git"
   },
   "dependencies": {
-    "botbuilder": "^3.14.1",
+    "botbuilder": "^4.10.4",
     "botbuilder-azure": "^3.0.4",
     "dotenv-extended": "^2.3.0",
     "html-entities": "^1.2.1",
