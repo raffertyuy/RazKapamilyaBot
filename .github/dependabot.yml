@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: botbuilder-azure
+    versions:
+    - 4.11.1
+    - 4.12.0
+    - 4.13.0
+  - dependency-name: botbuilder
+    versions:
+    - 4.11.1
+    - 4.12.0
+    - 4.13.0
+  - dependency-name: html-entities
+    versions:
+    - 2.1.0
+    - 2.1.1
+    - 2.3.1
