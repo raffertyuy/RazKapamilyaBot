@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "botbuilder": "^3.14.1",
-    "botbuilder-azure": "^3.0.4",
+    "botbuilder-azure": "^4.13.1",
     "dotenv-extended": "^2.3.0",
     "html-entities": "^1.2.1",
     "node-fetch": "^2.2.0",
